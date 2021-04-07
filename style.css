@@ -1,0 +1,128 @@
+/*  CSS styling of my google landing page */
+
+.wrapper{
+    margin: 3px auto;
+    height: auto;
+}
+
+/* styling for the nav section */
+.nav{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto auto  ;
+}
+
+.nav-1{
+    float: left;
+    padding-left:2px;
+}
+
+.nav-2{
+    float: right;   
+}
+/* styling the nav  section links and anchor elements */
+.lists, a{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#button{
+    background: blue;
+    margin-right: 5px;
+    padding: 10px;
+    color: white;
+   height: 50px;
+}
+
+/* styling for the main section */
+
+main{
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+/* styling the h1 coloured google */
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    margin: 50px 0 ;
+}
+
+/* styling the diff colours */
+.blue{
+    color: rgb(43, 121, 211);
+}
+.red{
+    color: rgb(236, 67, 67);
+}
+.orange{
+    color: rgb(248, 214, 21);
+}
+.green{
+    color: rgb(4, 179, 4);
+}
+
+/* styling the input element */
+input{
+    width: 45%;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px  gray;
+    margin-bottom: 30px;
+    border: 1px solid silver;
+}
+/* styling the fontawesome mic */
+.mic{
+    color: rgb(93, 93, 253);
+    position: absolute;
+    right: 29%;
+    top: 40%;
+    cursor: pointer;
+}
+
+/* styling the first section class */
+.first-section{
+    margin-right: 50px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+/* styling  the section list elements */
+
+li,.inline{
+    display: inline;
+}
+
+.unordered,.decoration{
+    text-decoration: underline;
+    color: blue;
+}
+
+/* styling footer */
+footer{
+    background-color:rgb(238, 236, 236);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+.footer-left{
+    float: left;
+    margin-right: 50px;
+    padding-left: 2px;
+} 
+
+.footer-right{
+    margin-left: 650px;
+    padding-right: -2px;
+    
+}
